@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Rubik Moonrocks', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;  /* yüzde işaretinin sayfanın tam ortasına gelmesini sağlıyoruz */
+    margin:0;
+    overflow: hidden;
+}
+
+.bg{
+    background: no-repeat center/cover url('images/yazilim.jpg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(0px);  /*bulanıklık katacak kısım*/
+}
+
+.loading-text{
+    color:#f5d703;
+    font-size: 100px;
+}
+
