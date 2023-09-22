@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root{
+    --darkGreen-color:#1b4332;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #b7e4c7 50%, var(--darkGreen-color) 50%);  /*sayfanın %50 %50 bir şekilde farklı renklerde görünmesi için*/
+}
+
+nav{
+    background-color: #fff;
+    padding: 20px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    transition: width 0.6s linear;
+}
+
+nav.active{
+    width: 420px;  /*nav active olduğunda 420px genişlesin*/
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none; /*liste başındaki noktalar kaybolması için*/
+    padding: 0;
+    margin: 0;
+    width: 0;
+    transition: width 0.6s linear; /*geçiş width'e uygulanacak*/
+}
+
+nav.active ul{
+    width: 100%;
+}
+
+nav ul li{
+    transform: rotateY(0deg);
+    opacity: 0;  /*active olmadığında içerisindeki list elemanları gözükmemesi için*/
+    transition:transform 0.6s linear, opacity 0.6s linear;
+}
+
+nav.active ul li{
+    opacity: 1;  /*nav active olduğunda içerisindeki li elemanları gözüksün*/
+    transform:rotateY(360deg);  /*nav classı active iken liste elemanları 360 derece animasyonlu bir şekilde dönsün*/
+}
+
+nav ul a{
+    position:relative;
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+.icon{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.icon .line{  /*buton üzerinde çizgilerimizin oluşmasını sağlayacak*/
+    background-color: var(--darkGreen-color);
+    height: 2px;
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    transition: transform 0.6s linear;
+}
+
+.icon .line2{  /*üst üste binen çizgileri bu stil ile ayırdık ve alt alta gözükmesini sağladık*/
+    top: auto;
+    bottom: 10px;
+}
+
+nav.active .icon .line1{  /*1. çizginin 765 derece dönerek çarpının bir kısmını oluşturması için*/
+    transform: rotate(-765deg) translateY(5.5px); /* 180*4=720 kendi etrafında dönecek ve + 45 derece ile çarpı konumunu alması için */
+}
+
+nav.active .icon .line2{ /*2. çizginin diğer yöne 765 derece dönerek çarpının diğer kısmını oluşturması için*/
+    transform: rotate(+765deg) translateY(-5.5px);
+}
