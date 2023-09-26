@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: #aaaa9f;
+    color: #fff;
+    overflow-x: hidden;  /*x ekseninde oluşan scroolbarı yok et*/
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.counter{
+    font-size: 60px;
+    margin-top: 10px;
+    letter-spacing: 10px;
+}
+
+span{
+    letter-spacing: 5px;
+}
+
+@media(max-width: 1400px)  /*max 1400px olduğunda container içerisindekiler column haline gelsin*/
+{
+    .container{
+        flex-direction: column;
+        height: auto;
+    }
+}
