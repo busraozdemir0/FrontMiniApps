@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: #faedcd;
+    color: #e63946;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /*sayfada tam ortaya gelmesi için*/
+    margin: 0;
+    overflow: hidden;
+}
+
+.kinetic{
+    position: relative;
+    height: 80px;
+    width: 80px;
+}
+
+.kinetic::after, 
+.kinetic::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom-color: #e63946;  /*karenin alt üçgenini görürüz*/
+    border-radius: 50%;  /*daire şeklinde dönmesi için*/
+    animation: rotateA 2s linear infinite 0.5s;  /*animasyon işlemi*/
+
+}
+
+.kinetic::before{
+    transform: rotate(90deg);  /*diğer üçgenle üst üste bindiği için burada ayırdık*/
+    animation: rotateB 2s linear infinite;
+}
+
+@keyframes rotateA{  /*ilk yarım çemberimizin hareketi*/
+    0%, 25% {
+        transform: rotate(0deg);
+    }
+
+    50%, 75% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateB{  /*ikinci yarım çemberimizin hareketi*/
+    0%, 25% {
+        transform: rotate(90deg);
+    }
+
+    50%, 75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(450deg);
+    }
+}
+
+span{
+    position: absolute;
+    top: 130px;
+}
