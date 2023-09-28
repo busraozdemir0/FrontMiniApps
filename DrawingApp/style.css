@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Sniglet', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas{
+    border: 3px solid black;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+    height: 600px;
+    width: 1000px;
+}
+
+.toolbar{
+    background-color: tomato;
+    border: 3px solid black;
+    border-top: none;
+    display: flex;
+    width: 1000px;
+    border-radius: 0 0 10px 10px ;
+    padding: 1rem;
+}
+
+.toolbar > *{  /*toolbar altindaki butun child'lara ulastik*/
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    font-family: inherit;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    transition: color 0.5s ease;  /*gecis islemi color icin gerceklesecek (0.5s gecisli bir sekilde)*/
+}
+
+.toolbar > *:last-child{  /*toolbar icerisindeki son eleman yani x yazili buton*/
+    margin-left: auto; /*buton en saga gidecek*/
+}
+
+.toolbar button:hover{
+    color: #000;
+}
+
+.toolbar button:active{
+    transform: scale(0.9);
+}
+
+@media(max-width: 1000px){
+    canvas{
+        width: 500px;
+        height: 600px;
+    }
+
+    .toolbar{
+        width: 500px;
+        height: 100px;
+    }
+}
+
+@media(max-width: 500px){
+    canvas{
+        width: 400px;
+        height: 500px;
+    }
+
+    .toolbar{
+        width: 400px;
+        height: 90px;
+    }
+}
+
+@media(max-width: 400px){
+    canvas{
+        width: 250px;
+        height: 350px;
+    }
+
+    .toolbar{
+        width: 250px;
+        height: 80px;
+    }
+}
