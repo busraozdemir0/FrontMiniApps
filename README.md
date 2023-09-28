@@ -38,6 +38,19 @@
 
 ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/RandomChoiceGame/Screenshots/random_choice.png)
 
+### Animasyonlu Yükleme Ekranı
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/LoadingScreen2/screenshot/1.png) ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/LoadingScreen2/screenshot/2.png)
+
+### Hıza Göre Metin Efekti Oluşturma
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/AutoTextEffect/hiza_gore_metin_efekti.png)
+
+### Not Panosu Uygulaması - Marked Text
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/MemoBoardApp/images/markdown.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/MemoBoardApp/images/1.png)
 
 
 
