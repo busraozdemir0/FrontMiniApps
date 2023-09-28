@@ -52,6 +52,26 @@
 
 ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/MemoBoardApp/images/1.png)
 
+### Quiz Uygulaması
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/QuizApp/img/soru1.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/QuizApp/img/karar.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/QuizApp/img/sonuc.png)
+
+
+### Canvas API ile Çizim/Paint Uygulaması
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/DrawingApp/image/screenshot.png)
+
+
+
+
+
+
+
+
 
 
 
