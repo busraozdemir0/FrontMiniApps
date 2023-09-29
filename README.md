@@ -52,6 +52,28 @@
 
 ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/MemoBoardApp/images/1.png)
 
+### Quiz Uygulaması
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/QuizApp/img/soru1.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/QuizApp/img/karar.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/QuizApp/img/sonuc.png)
+
+
+### Canvas API ile Çizim/Paint Uygulaması
+
+https://6515764a5d02d62212a16327--clever-bonbon-0ea228.netlify.app/
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/DrawingApp/image/screenshot.png)
+
+
+
+
+
+
+
+
 
 
 
