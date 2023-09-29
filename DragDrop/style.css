@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;  /*tasmalarin onune gecmesi icin*/
+  }
+  
+  body {
+    background-color: #b9b9b9c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .empty {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #333;
+    margin: 10px;
+    background-color: #fff;
+  }
+  
+  .fill {
+    background-image: url('https://source.unsplash.com/random/150x150');  /*random bir sekilde gorseller gelecek (150x150 boyutunda)*/
+    width: 144px;
+    height: 144px;
+    cursor: pointer;
+  }
+  
+  .hold {  /*fill classli olana dinamik bir sekilde ekleyip cikaracagiz*/
+    border: solid 5px #eee;
+  }
+  
+  .hover {  /*surukleme ile baska kutunun ustune geldigimizde*/
+    background-color: #333;
+    border-style: dashed;
+    border-color: #fff;
+  }
+  
+  @media (max-width: 800px) {
+    body {
+      flex-direction: column;
+    }
+  }
