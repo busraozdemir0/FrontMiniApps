@@ -67,7 +67,15 @@ https://6515764a5d02d62212a16327--clever-bonbon-0ea228.netlify.app/
 
 ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/DrawingApp/image/screenshot.png)
 
+### Pokemon Rehberleri Uygulaması - Fetch API ile (async, await)
 
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/PokedexGuide/Screenshots/home.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/PokedexGuide/Screenshots/searchInput.png)
+
+### Hesap Doğrulama Arayüzü
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/Verify_Account/image/screenshot.png)
 
 
 
