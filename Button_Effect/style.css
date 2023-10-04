@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+button{
+    background-color: rgb(86, 73, 204);
+    font-family: inherit;
+    border: none;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;  /* olusturdugumuz daire butonun disina tasmasin */
+}
+
+button:focus{
+    outline: none;
+}
+
+.circle{
+    position: absolute;
+    background-color: #fff;
+    width: 10rem;
+    height:10rem;
+    left: 6rem;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);  /* olusturdugumuz daire gorunmeyecek */
+    animation: scale 0.5s ease-out;
+}
+
+@keyframes scale{
+    to{
+        transform: translate(-50%, -50%) scale(3); /* olusturdugumuz daire gorunecek */
+        opacity: 0;
+    }
+}
