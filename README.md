@@ -81,7 +81,18 @@ https://6515764a5d02d62212a16327--clever-bonbon-0ea228.netlify.app/
 
 ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/HoverBoard/screenshot.png)
 
+### Sticky Gezinme Çubuğu
 
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/StickyNavbar/Screenshots/home.png)
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/StickyNavbar/Screenshots/home2.png)
+
+
+### Geri Bildirim Uygulaması
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/FeedbackUI/Screenshots/1.png) 
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/FeedbackUI/Screenshots/2.png)
 
 
 
