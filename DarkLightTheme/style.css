@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{         /* default mode olacak (light mode) */
+    --nav-font-color:#333;
+    --nav-bg-color: #eee;
+    --container-font-color:rgb(42, 25, 42);
+    --container-bg-color:aliceblue;
+}
+
+.dark-theme{  /* dark mode icin */
+    --nav-font-color:#eee;
+    --nav-bg-color: #333;
+    --container-font-color:aliceblue;
+    --container-bg-color:rgb(42, 25, 42);
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:var(--nav-font-color);
+    background-color: var(--nav-bg-color);
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+nav i{
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--container-font-color);
+    background-color:var(--container-bg-color) ;
+    transition: all 0.3s ease;
+}
