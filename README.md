@@ -94,6 +94,22 @@ https://6515764a5d02d62212a16327--clever-bonbon-0ea228.netlify.app/
 
 ![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/FeedbackUI/Screenshots/2.png)
 
+### GitHub Profil Kartları - Axios Kullanımıyla
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/Github_ProfileCard/Screenshots/Card_Arayuz.png) 
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/Github_ProfileCard/Screenshots/notFound_user.png)
+
+### Film Sitesi - API ile
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/MovieApp/Screenshots/home.png) 
+
+![Home](https://github.com/busraozdemir0/FrontMiniApps/blob/main/MovieApp/Screenshots/home2.png)
+
+### Personal Website
+
+https://busraozdemir.netlify.app/
+
 
 
 
