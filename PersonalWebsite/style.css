@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+:root{  /*light tema renkleri*/
+    --bg-color: #eee;
+    --border-color: #aaa;
+    --font-color:#333;
+    --body-color:#fff;
+}
+
+.dark-theme{  /*dark tema renkleri*/
+    --bg-color: #273340;
+    --border-color: rgb(66,83,100);
+    --font-color:#fff;
+    --body-color:#15202b;
+}
+
+header nav i{
+    cursor: pointer;
+    color: var(--font-color);
+    transition: all 0.5s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color: var(--body-color);
+    color: var(--font-color);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.container{
+    position:relative ;
+}
+
+header{
+    background-color: var(--bg-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: all 0.3s ease;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+    padding:1rem;
+}
+
+header nav h2{
+    letter-spacing: 5px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+main article{
+    text-align: center;
+    padding: 1rem;
+}
+
+main article p{
+    margin: 0.3rem 0;
+}
+
+main article p a{
+    color: var(--font-color);
+    text-decoration: none;
+    border-bottom: solid 1px var(--border-color);
+    transition: color 0.3s ease;
+}
+
+main article p a:hover{
+    color: var(--border-color);
+}
+
+main article p span{
+    font-size: 0.9rem;
+    color: var(--border-color);
+    transition: all 0.3s ease;
+}
+
+main article ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 0.7rem;
+}
+
+main article ul li a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+main article ul li a:hover{
+    color: var(--border-color);
+    transition: color 0.3s ease;
+}
+
+footer{
+    color: var(--font-color);
+    position: fixed;
+    bottom: 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+footer nav{
+    padding: 0.5rem;
+    border-top: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+footer nav small{
+    font-size: 0.6rem;
+    letter-spacing: 2.5px;
+    font-weight: bold;
+}
